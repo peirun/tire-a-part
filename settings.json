@@ -1,0 +1,58 @@
+{
+  "groups": [
+    "CREIDD",
+    "ERA",
+    "GAMMA3",
+    "LASMIS",
+    "LM2S",
+    "LNIO",
+    "LOSI",
+    "TECH-CICO"
+  ], "programs": [
+    "Résilience et gestion de crise",
+    "Surveillance et sûreté des grands systèmes",
+    "Cyber-sécurité",
+    "E-santé",
+    "Éco-conception"
+  ], "platforms": [
+    "NANOMAT",
+    "NUM3D",
+    "CAPSEC",
+    "ADHERE"
+  ], "partners": [
+    "Europe",
+    "Asie",
+    "Afrique",
+    "Amérique du Nord",
+    "Amérique du Sud",
+    "Océanie"
+  ], "categories": [
+    "ACL", "ACLN", "ASCL", "BRE", "INV", "ACTI", "ACTN", "COM", "AFF",
+    "OS", "OV", "DO", "TH-H", "TH-D", "TH-M", "AP"
+  ], "bibtexType": {
+    "ACL": "article",
+    "ACLN": "article",
+    "ASCL": "article",
+    "ACTI": "inproceedings",
+    "ACTN": "inproceedings",
+    "INV": "conference",
+    "COM": "conference",
+    "AFF": "conference",
+    "OS": "incollection",
+    "OV": "incollection",
+    "BRE": "misc",
+    "DO": "misc",
+    "TH-H": "misc",
+    "TH-D": "misc",
+    "TH-M": "misc",
+    "AP": "misc"
+  }, "indexers": [
+    "ISI",
+    "SCOPUS",
+    "ACM",
+    "DBLP",
+    "INIST",
+    "AERES-SHS"
+  ]
+}
+

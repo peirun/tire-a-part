@@ -1,0 +1,106 @@
+body {
+  height: 100%;
+  margin: 0; 
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  padding: 2px 8px;
+}
+
+#header {
+  padding: 4px 8px;
+}
+
+.menu label {
+  color: white;
+  vertical-align: middle;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding-top: 4px;
+}
+
+#content {
+  padding: 30px;
+}
+
+#help {
+  float: right;
+  padding-right: 12px;
+}
+
+.ui-widget {
+  font-size: 80%;
+}
+
+#content>div {
+  display: table-row;
+}
+
+#content label, .label {
+  display: table-cell;
+  text-align: right;
+  vertical-align: top;
+  width: 20%;
+  color: gray;
+  padding: 0 5px 5px 0;
+}
+
+.ui-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ui-icon.info {
+  background-image: url(lib/images/ui-icons_2e83ff_256x240.png);
+}
+
+#content ul:not(.chzn-choices) {
+  padding: 0 20;
+}
+
+#console {
+  text-align: center;
+}
+
+#uploader {
+  display: none;
+}
+
+.ok {
+  color: green;
+}
+
+.ko {
+  color: red;
+}
+
+.ok:before {
+  content: "\2713";
+}
+
+.ko:before {
+  content: "\26a0";
+}
+
+.sorted {
+  font-weight: bold
+}

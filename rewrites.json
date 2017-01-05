@@ -1,0 +1,61 @@
+[
+  { 
+    "from": "included/*",
+    "to": "*"
+  }, {
+    "from": "script/:file", 
+    "to": "../../../_utils/script/:file"
+  }, {
+    "from": "attribute",
+    "to": "_view/attribute",
+    "query": {
+      "group": "true"
+    }
+  }, {
+    "from": "dashboard",
+    "to": "_list/dashboard/dashboard",
+    "query": {
+      "startkey": [":by"],
+      "endkey": [":by",{}],
+      "group": "true"
+    }
+  }, {
+    "from": "authors",
+    "to": "_list/creators_quality/creators_quality",
+    "query": {
+      "startkey": [":by"],
+      "endkey": [":by",{}],
+      "group": "true"
+    }
+  }, {
+    "from": "titles",
+    "to": "_list/titles_quality/titles_quality",
+    "query": {
+      "startkey": [":by"],
+      "endkey": [":by",{}]
+    }
+  }, {
+    "method": "GET",
+    "from": ":object",
+    "to": "_show/record/:object"
+  }, {
+    "from": ":object",
+    "to": "../../:object"
+  }, {
+    "from": ":object/:attachment",
+    "to": "../../:object/:attachment"
+  }, {
+    "method": "GET",
+    "from": "",
+    "to": "_list/activity/activity",
+    "query": {
+      "descending": "true",
+      "startkey": [":by",{}],
+      "endkey": [":by"],
+      "include_docs": "true"
+    }
+  }, {
+    "from": "",
+    "to": "../../"
+  }
+]
